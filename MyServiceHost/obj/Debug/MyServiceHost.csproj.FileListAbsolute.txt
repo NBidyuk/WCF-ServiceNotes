@@ -1,0 +1,16 @@
+D:\НАТАША\Шаг\ДЗ\Projects\WCF\Service Notebook\MyServiceHost\bin\Debug\MyServiceHost.exe.config
+D:\НАТАША\Шаг\ДЗ\Projects\WCF\Service Notebook\MyServiceHost\bin\Debug\MyServiceHost.exe
+D:\НАТАША\Шаг\ДЗ\Projects\WCF\Service Notebook\MyServiceHost\bin\Debug\MyServiceHost.pdb
+D:\НАТАША\Шаг\ДЗ\Projects\WCF\Service Notebook\MyServiceHost\bin\Debug\WcfServiceLibrary1.dll
+D:\НАТАША\Шаг\ДЗ\Projects\WCF\Service Notebook\MyServiceHost\bin\Debug\WcfServiceLibrary1.pdb
+D:\НАТАША\Шаг\ДЗ\Projects\WCF\Service Notebook\MyServiceHost\obj\Debug\MyServiceHost.csprojResolveAssemblyReference.cache
+D:\НАТАША\Шаг\ДЗ\Projects\WCF\Service Notebook\MyServiceHost\obj\Debug\MyServiceHost.exe
+D:\НАТАША\Шаг\ДЗ\Projects\WCF\Service Notebook\MyServiceHost\obj\Debug\MyServiceHost.pdb
+D:\НАТАША\Шаг\Homework\Projects\WCF\Service Notebook\MyServiceHost\bin\Debug\MyServiceHost.exe.config
+D:\НАТАША\Шаг\Homework\Projects\WCF\Service Notebook\MyServiceHost\bin\Debug\MyServiceHost.exe
+D:\НАТАША\Шаг\Homework\Projects\WCF\Service Notebook\MyServiceHost\bin\Debug\MyServiceHost.pdb
+D:\НАТАША\Шаг\Homework\Projects\WCF\Service Notebook\MyServiceHost\bin\Debug\WcfServiceLibrary1.dll
+D:\НАТАША\Шаг\Homework\Projects\WCF\Service Notebook\MyServiceHost\bin\Debug\WcfServiceLibrary1.pdb
+D:\НАТАША\Шаг\Homework\Projects\WCF\Service Notebook\MyServiceHost\obj\Debug\MyServiceHost.csprojResolveAssemblyReference.cache
+D:\НАТАША\Шаг\Homework\Projects\WCF\Service Notebook\MyServiceHost\obj\Debug\MyServiceHost.exe
+D:\НАТАША\Шаг\Homework\Projects\WCF\Service Notebook\MyServiceHost\obj\Debug\MyServiceHost.pdb

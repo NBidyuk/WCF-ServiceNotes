@@ -1,0 +1,12 @@
+C:\Users\bidu_ev59\Desktop\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csprojResolveAssemblyReference.cache
+C:\Users\bidu_ev59\Desktop\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+C:\Users\bidu_ev59\Desktop\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+C:\Users\bidu_ev59\Desktop\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+C:\Users\bidu_ev59\Desktop\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+C:\Users\bidu_ev59\Desktop\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb
+D:\НАТАША\Шаг\ДЗ\Projects\WCF\Service Notebook\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+D:\НАТАША\Шаг\ДЗ\Projects\WCF\Service Notebook\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+D:\НАТАША\Шаг\ДЗ\Projects\WCF\Service Notebook\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+D:\НАТАША\Шаг\ДЗ\Projects\WCF\Service Notebook\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+D:\НАТАША\Шаг\ДЗ\Projects\WCF\Service Notebook\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb
+D:\НАТАША\Шаг\ДЗ\Projects\WCF\Service Notebook\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csprojResolveAssemblyReference.cache

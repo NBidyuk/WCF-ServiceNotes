@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8086/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8086/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8086/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfServiceLibrary1" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_Replace_InputMessage">
+    <wsdl:part name="parameters" element="tns:Replace" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Replace_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReplaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ShowByDate_InputMessage">
+    <wsdl:part name="parameters" element="tns:ShowByDate" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ShowByDate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ShowByDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ShowAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:ShowAll" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ShowAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ShowAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddNote_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddNote" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddNote_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddNoteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListSerialize_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListSerialize" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListSerialize_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListSerializeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListDeSerialize_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListDeSerialize" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ListDeSerialize_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListDeSerializeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="Replace">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Replace" message="tns:IService1_Replace_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ReplaceResponse" message="tns:IService1_Replace_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowByDate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ShowByDate" message="tns:IService1_ShowByDate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ShowByDateResponse" message="tns:IService1_ShowByDate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ShowAll" message="tns:IService1_ShowAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ShowAllResponse" message="tns:IService1_ShowAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddNote">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddNote" message="tns:IService1_AddNote_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddNoteResponse" message="tns:IService1_AddNote_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListSerialize">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ListSerialize" message="tns:IService1_ListSerialize_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ListSerializeResponse" message="tns:IService1_ListSerialize_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListDeSerialize">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ListDeSerialize" message="tns:IService1_ListDeSerialize_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ListDeSerializeResponse" message="tns:IService1_ListDeSerialize_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Replace">
+      <soap:operation soapAction="http://tempuri.org/IService1/Replace" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowByDate">
+      <soap:operation soapAction="http://tempuri.org/IService1/ShowByDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowAll">
+      <soap:operation soapAction="http://tempuri.org/IService1/ShowAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNote">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddNote" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListSerialize">
+      <soap:operation soapAction="http://tempuri.org/IService1/ListSerialize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListDeSerialize">
+      <soap:operation soapAction="http://tempuri.org/IService1/ListDeSerialize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:8086/basic" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
